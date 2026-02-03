@@ -1,0 +1,13 @@
+{
+  "name": "cryke-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "launch": "npx tsx launch.ts",
+    "claim": "npx tsx claim-fees.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "tsx": "^4.7.0"
+  }
+}
